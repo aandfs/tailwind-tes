@@ -5,46 +5,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
-    <nav class="sticky top-0 bg-gray-50 w-full border-b-4 border-indigo-500 font-semibold">
-        <div class="flex container mx-auto py-4">
-            <img src="https://akcdn.detik.net.id/community/media/visual/2020/09/17/logo-detiknews.png?d=1" alt="" class="w-32 mr-4">
+    <nav class="sticky top-0 bg-orange-100 w-full font-semibold">
+        <div class="flex justify-between container mx-auto py-5 border-b-4 border-stone-500">
             <ul class="flex space-x-8 text-slate-700 ">
                 <li>
-                    <a href="#" class="hover:text-sky-500">Menu 1</a>
+                    <a href="#" class="hover:text-sky-500">About Us</a>
                 </li>
                 <li>
-                    <a href="#" class="hover:text-sky-500">Menu 2</a>
+                    <a href="#" class="hover:text-sky-500">Services</a>
                 </li>
                 <li>
-                    <a href="#" class="hover:text-sky-500">Menu 3</a>
+                    <a href="#" class="hover:text-sky-500">Blog</a>
                 </li>
-
+                <li>
+                    <a href="#" class="hover:text-sky-500">Contact</a>
+                </li>
             </ul>
+
+            <div class="absolute left-2/4">
+                <h1>Lalaland</h1>
+            </div>
+
+            <div class="space-x-5">
+                <i class="fa-brands fa-facebook fb"></i>
+                <i class="fa-brands fa-facebook fb"></i>
+                <i class="fa-brands fa-facebook fb"></i>
+            </div>
+
         </div>
     </nav>
 
-    <header>
+    <!-- <header>
         <img src="https://source.unsplash.com/random/featured/?paper" class="bg-cover w-screen h-screen" alt="">
-    </header>
-
-    <section class="bg-gray-200">
+    </header> -->
+    <div class="bg-orange-100">
         <div class="container mx-auto py-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, non. Nobis, facere voluptas? Magni sunt ea suscipit quasi. Recusandae architecto doloremque hic quos reiciendis a corporis rem, dicta ut aperiam quis nesciunt officia aliquam eligendi unde ipsum provident saepe voluptatem exercitationem consequuntur, numquam perferendis? Eligendi quos fugit beatae dolore aut saepe error eaque est aperiam aspernatur necessitatibus magni officiis dolores perspiciatis numquam quidem omnis animi qui dolor illo architecto, reprehenderit voluptate! Ab laudantium aperiam neque nisi? Consequatur, deleniti, laboriosam culpa numquam tenetur sit, voluptate perspiciatis vitae doloribus non aliquam! Deserunt provident consectetur sequi ducimus distinctio minima temporibus blanditiis ipsam ipsum?</br>
+            <div class="grid grid-cols-2">
+                <div class="m-20">
+                    <h2 class="font-mono font-bold text-2xl pb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. ?</h2>
+                    <p class="pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quidem, ut adipisci laudantium soluta expedita! Quae voluptatum, repellendus esse aliquid perferendis omnis, aliquam mollitia officia aperiam, minima quis quaerat molestiae?</p>
 
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus fuga illum dicta amet. Temporibus omnis officia quaerat eaque totam nisi quos ad illum nostrum atque aliquid, illo fuga nobis. Placeat deleniti similique magnam! Perspiciatis id nam repellendus at voluptates, ab asperiores minima voluptatibus similique natus neque ducimus vitae, laudantium, tempora eum harum? Iste soluta dolor quibusdam saepe nostrum hic. Quas necessitatibus eligendi voluptatem placeat vero veritatis exercitationem, cumque tempore, voluptates nobis vel labore similique iure impedit! Molestias tempore, quos recusandae eligendi culpa temporibus laudantium? Blanditiis obcaecati, beatae nisi consequatur, animi ipsa neque odit suscipit cumque placeat eius impedit rem cum.
-            </p>
+                    <button type="button" class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Button text</button>
+                </div>
+
+                <div>
+                    <div class="grid grid-rows-1 grid-flow-col gap-6">
+                        <img src="https://source.unsplash.com/random/featured/?rabbit" class="bg-cover w-screen h-fit" alt="">
+                        <img src="https://source.unsplash.com/random/featured/?cat" class="bg-cover w-screen h-fit" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <section class="bg-gray-100">
+        <div class="container mx-auto p-14">
+
+            <div class="grid grid-cols-3">
+                <div>
+                    <div class="border-l-4 border-orange-500 p-5">
+                        <span class="font-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, suscipit.?</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, vero?</p>
+                    </div>
+                </div>
+                <div class="col-span-2">
+                    <div class="grid grid-cols-3">
+                        <img class="w-fit h-40 p-2" src="https://source.unsplash.com/random/featured/?logo" class="bg-cover w-screen h-fit" alt="">
+                        <img class="w-fit h-40 p-2" src="https://source.unsplash.com/random/featured/?logo" class="bg-cover w-screen h-fit" alt="">
+                        <img class="w-fit h-40 p-2" src="https://source.unsplash.com/random/featured/?logo" class="bg-cover w-screen h-fit" alt="">
+                        <img class="w-fit h-40 p-2" src="https://source.unsplash.com/random/featured/?logo" class="bg-cover w-screen h-fit" alt="">
+                        <img class="w-fit h-40 p-2" src="https://source.unsplash.com/random/featured/?logo" class="bg-cover w-screen h-fit" alt="">
+                        <img class="w-fit h-40 p-2" src="https://source.unsplash.com/random/featured/?logo" class="bg-cover w-screen h-fit" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="bg-sky-200">
+    <section class="bg-orange-100">
         <div class="container mx-auto py-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, non. Nobis, facere voluptas? Magni sunt ea suscipit quasi. Recusandae architecto doloremque hic quos reiciendis a corporis rem, dicta ut aperiam quis nesciunt officia aliquam eligendi unde ipsum provident saepe voluptatem exercitationem consequuntur, numquam perferendis? Eligendi quos fugit beatae dolore aut saepe error eaque est aperiam aspernatur necessitatibus magni officiis dolores perspiciatis numquam quidem omnis animi qui dolor illo architecto, reprehenderit voluptate! Ab laudantium aperiam neque nisi? Consequatur, deleniti, laboriosam culpa numquam tenetur sit, voluptate perspiciatis vitae doloribus non aliquam! Deserunt provident consectetur sequi ducimus distinctio minima temporibus blanditiis ipsam ipsum?</br>
+            <h2 class="text-center font-bold">Lorem, ipsum dolor.</h2>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ea placeat reiciendis eligendi architecto mollitia excepturi voluptate soluta fugiat odit!</p>
 
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus fuga illum dicta amet. Temporibus omnis officia quaerat eaque totam nisi quos ad illum nostrum atque aliquid, illo fuga nobis. Placeat deleniti similique magnam! Perspiciatis id nam repellendus at voluptates, ab asperiores minima voluptatibus similique natus neque ducimus vitae, laudantium, tempora eum harum? Iste soluta dolor quibusdam saepe nostrum hic. Quas necessitatibus eligendi voluptatem placeat vero veritatis exercitationem, cumque tempore, voluptates nobis vel labore similique iure impedit! Molestias tempore, quos recusandae eligendi culpa temporibus laudantium? Blanditiis obcaecati, beatae nisi consequatur, animi ipsa neque odit suscipit cumque placeat eius impedit rem cum.
-            </p>
+            
         </div>
     </section>
 
