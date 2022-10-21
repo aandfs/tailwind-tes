@@ -75,6 +75,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, vero?</p>
                     </div>
                 </div>
+
                 <div class="col-span-2">
                     <div class="grid grid-cols-3">
                         <img class="w-fit h-40 p-2" src="https://source.unsplash.com/random/featured/?logo" class="bg-cover w-screen h-fit" alt="">
@@ -91,12 +92,85 @@
 
     <section class="bg-orange-100">
         <div class="container mx-auto py-4">
-            <h2 class="text-center font-bold">Lorem, ipsum dolor.</h2>
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ea placeat reiciendis eligendi architecto mollitia excepturi voluptate soluta fugiat odit!</p>
+            <div class="grid grid-cols-4">
+                <div class="p-4">
+                    <h3 class="font-bold text-2xl">Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, expedita.</p>
+                </div>
 
-            
+                <div class="p-4">
+                    <div>
+                        <i class="fa-regular fa-clock text-4xl"></i>
+                        <h3 class="font-bold">Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus tempore tempora sequi saepe asperiores esse sit cum facere eum et?</p>
+                    </div>
+                </div>
+
+                <div class="p-4">
+                    <div>
+                        <i class="fa-regular fa-clock text-4xl"></i>
+                        <h3 class="font-bold">Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus tempore tempora sequi saepe asperiores esse sit cum facere eum et?</p>
+                    </div>
+                </div>
+
+                <div class="p-4">
+                    <div>
+                        <i class="fa-regular fa-clock text-4xl"></i>
+                        <h3 class="font-bold">Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus tempore tempora sequi saepe asperiores esse sit cum facere eum et?</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!-- <section class="bg-gray-100">
+        <div class="container mx-auto py-4">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="grid grid-cols-2">
+                <div>
+                    <div class="grid grid-cols-2">
+                        <div>
+                            <h3>1. Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis suscipit vero inventore, commodi impedit laboriosam. Quod ipsum enim fugiat esse!</p>
+                        </div>
+                        <div>
+                            <h3>2. Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis suscipit vero inventore, commodi impedit laboriosam. Quod ipsum enim fugiat esse!</p>
+                        </div>
+                        <div>
+                            <h3>3. Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis suscipit vero inventore, commodi impedit laboriosam. Quod ipsum enim fugiat esse!</p>
+                        </div>
+                        <div>
+                            <h3>4. Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis suscipit vero inventore, commodi impedit laboriosam. Quod ipsum enim fugiat esse!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="grid grid-cols-2">
+                        <div>
+                            <img class="w-full h-60 p-2" src="https://source.unsplash.com/random/featured/?logo" class="bg-cover" alt="">
+                        </div>
+                        <div>
+                            <img class="h-30 p-2" src="https://source.unsplash.com/random/featured/?logo" class="bg-cover" alt="">
+                        </div>
+                        <div>
+                            <img class="h-30 p-2" src="https://source.unsplash.com/random/featured/?logo" class="bg-cover" alt="">
+                        </div>
+                        <div>
+                            <img class="h-60 p-2" src="https://source.unsplash.com/random/featured/?logo" class="bg-cover" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
 
 
 </body>
